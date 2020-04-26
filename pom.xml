@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.atanu.spring</groupId>
-	<artifactId>config-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>config-server</name>
+	<artifactId>ecom-config-server</artifactId>
+	<version>1.0.RELEASE</version>
+	<name>ecom-config-server</name>
 	<description>Configuration server</description>
 
 	<properties>
