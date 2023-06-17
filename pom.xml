@@ -57,7 +57,7 @@
 	<!-- Profiles -->
 	<profiles>
 		<profile>
-			<id>dev</id>
+			<id>git</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
@@ -67,6 +67,15 @@
 				<eureka.defaultzone>http://127.0.0.1:8085/eureka/</eureka.defaultzone>
 				<instance.ip>127.0.0.1</instance.ip>
 				<git.config.uri>https://github.com/atanubhowmick/config-repository.git</git.config.uri>
+			</properties>
+		</profile>
+		<profile>
+			<id>native</id>
+			<properties>
+				<server.port>0</server.port>
+				<active.profile>dev</active.profile>
+				<eureka.defaultzone>http://127.0.0.1:8085/eureka/</eureka.defaultzone>
+				<instance.ip>127.0.0.1</instance.ip>
 			</properties>
 		</profile>
 		<profile>
