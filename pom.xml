@@ -66,7 +66,7 @@
 				<active.profile>dev</active.profile>
 				<eureka.defaultzone>http://127.0.0.1:8085/eureka/</eureka.defaultzone>
 				<instance.ip>127.0.0.1</instance.ip>
-				<git.config.uri>https://github.com/atanubhowmick/config-repository.git</git.config.uri>
+				<git.config.uri>https://github.com/atanubhowmick/ecom-config-repository.git</git.config.uri>
 			</properties>
 		</profile>
 		<profile>
@@ -81,11 +81,11 @@
 		<profile>
 			<id>docker</id>
 			<properties>
-				<server.port>8088</server.port>
+				<server.port>0</server.port>
 				<active.profile>docker</active.profile>
-				<eureka.defaultzone>http://172.17.0.1:8085/eureka/</eureka.defaultzone>
-				<instance.ip>172.17.0.1</instance.ip>
-				<git.config.uri>https://github.com/atanubhowmick/config-repository.git</git.config.uri>
+				<eureka.defaultzone>http://127.0.0.1:8085/eureka/</eureka.defaultzone>
+				<instance.ip>127.0.0.1</instance.ip>
+				<git.config.uri>https://github.com/atanubhowmick/ecom-config-repository.git</git.config.uri>
 			</properties>
 		</profile>
 	</profiles>
