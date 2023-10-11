@@ -7,7 +7,7 @@ ARG JAR_FILE=target/ecom-config-server-1.0.0.jar
 # cd /opt/app
 WORKDIR /opt/app
 
-# cp JAR_FILE /opt/app/ecom-config-server-1.0.0.jar
+# cp JAR_FILE /opt/app/ecom-config-server.jar
 COPY ${JAR_FILE} ecom-config-server.jar
 
 # java -jar /opt/app/ecom-config-server.jar
